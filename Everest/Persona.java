@@ -46,4 +46,10 @@ public class Persona {
     public String getExpedicion() {
         return expedicion;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Nombre: %s, Edad: %.0f, Nacionalidad: %s", nombre, edad, nacionalidad);
+    }
+
 }
