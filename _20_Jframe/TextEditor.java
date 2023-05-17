@@ -124,7 +124,5 @@ public class TextEditor extends JFrame {
             });
             spellCheckThread.start();
         }
-
     }
-
 }
