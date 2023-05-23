@@ -4,7 +4,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+//By Diego Arturo Enriquez Mercado
 public class P17_Sentencias_2 {
+
     private JFrame frame;
     private JLabel questionLabel;
     private JTextArea resultTextArea;

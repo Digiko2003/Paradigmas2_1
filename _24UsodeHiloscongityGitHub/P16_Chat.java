@@ -1,7 +1,6 @@
 package _24UsodeHiloscongityGitHub;
 //By Diego Arturo Enriquez Mercado
 import java.util.Scanner;
-
 public class P16_Chat {
     public static void Menssage(String person, String message, int time) {
         try {
@@ -20,11 +19,7 @@ public class P16_Chat {
         }
         System.out.println("");
     }
-
     public static void main(String[] args) {
-
-
-
         System.out.println("Conversation: ");
         System.out.println();
         Menssage("megm", "Hi, there!", 2000);
@@ -57,7 +52,6 @@ public class P16_Chat {
                 "megm",
                 "john"
         };
-
         String[] Preguntas = {
                 "Who is writing an essay?",
                 "Who is having coffee?",
@@ -66,25 +60,17 @@ public class P16_Chat {
                 "Who is shopping?",
                 "Who is playing soccer?"
         };
-
-
-
         for (int i = 0; i < Preguntas.length; i++) {
             String activity = Preguntas[i];
             String Answer = Respuestas[i];
-
             System.out.print(activity);
-
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
             String response = scanner.nextLine();
             System.out.println("Response: " + response);
-
-
             if (response.equalsIgnoreCase(Answer)) {
                 System.out.println("Correct!");
             } else {
@@ -92,12 +78,8 @@ public class P16_Chat {
                 System.out.println("Correct answer: " + Answer);
             }
         }
-
         scanner.close();
     }
-
-
-
 }
 
 
